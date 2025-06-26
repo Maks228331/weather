@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link rel="stylesheet" href="second.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <title>погода 2</title>
+  </head>
+  <body>
+
+
+    
+
+
+    <div class="container">
+
+<div class="choose_cont">
+  <a href="index.html"><button class="choose_btn left">Погода зараз</button></a>
+  <a href="second.html"><button class="choose_btn right">Погода за 3 дні</button></a>
+</div>
+
+
+      <h1>Погода</h1> 
+
+     <select class="select">
+      <option value="1">Черкаси</option>
+      <option value="2">Львів</option>
+      <option value="3">Київ</option>
+      <option value="4">Харків</option>
+      <option value="5">Одеса</option>
+     </select>
+
+     <p>Пошук по назві:</p>
+
+     <input type="text" placeholder="Введіть назву міста" class="search">
+     <button class="Serch_btn"><i class="fa fa-search"></i> Search</button>
+
+    </div>
+
+    <div id="wether_info">
+      <!-- <p class="city_name">City Name</p> -->
+    </div>
+
+   
+   
+    <script src="second.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  </body>
+</html>
